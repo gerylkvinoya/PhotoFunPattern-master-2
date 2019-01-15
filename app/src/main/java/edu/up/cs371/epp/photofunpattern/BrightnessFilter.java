@@ -1,6 +1,7 @@
 package edu.up.cs371.epp.photofunpattern;
 
 import android.graphics.Color;
+import android.widget.TextView;
 
 /**
  *  class BrightFilter changes the image manipulation behavior of its parent
