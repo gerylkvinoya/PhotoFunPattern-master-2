@@ -20,8 +20,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            app:srcCompat="@drawable/olivia_small"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+
+            app:srcCompat="@drawable/olivia_small" />
 
         <ImageView
             android:id="@+id/newImage"
@@ -32,6 +33,12 @@
             app:srcCompat="@drawable/blank"
             android:layout_weight="1" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orginal                                                 Modified" />
 
     <LinearLayout
         android:orientation="horizontal"
